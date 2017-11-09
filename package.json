@@ -6,8 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --inline --hot --env='dev' -d --watch",
     "stage": "webpack --env='stage' --optimize-minimize --progress --colors",
-    "production": "webpack --env='production' --optimize-minimize --progress --colors",
-    "load": "webpack-dev-server --open",
+    "prod": "webpack --env='prod' --optimize-minimize --progress --colors",
+    "load": "webpack-dev-server --open --env='dev'",
     "test": "jest --config jest.config.json"
   },
   "author": "Judit Sánchez (JodieHag)",
