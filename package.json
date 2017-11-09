@@ -52,7 +52,6 @@
     "sass-loader": "^6.0.5",
     "slugify": "^1.1.0",
     "style-loader": "^0.18.1",
-    "twilio-chat": "^1.2.1",
     "uglifyjs-webpack-plugin": "^1.0.1",
     "url-loader": "^0.5.8",
     "webpack": "^3.5.6",
